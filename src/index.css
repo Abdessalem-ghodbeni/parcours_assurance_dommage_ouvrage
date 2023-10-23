@@ -1,0 +1,43 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  }
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 600; */
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.ant-upload-list-item-container{
+  max-width: 16vw;
+}
+
+
+.ant-typography {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.ant-steps .ant-steps-item-wait .ant-steps-item-icon {
+  background-color: #F8DAD7;
+}
+ 
+.ant-steps .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: #F8DAD7;
+}
+/* Ajoutez ce style dans votre fichier CSS personnalisé */
+.ant-steps .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+  background-color:#F8DAD7;
+}
+.css-dev-only-do-not-override-1n7nwfa.ant-input-lg {
+  font-family: "Montserrat", sans-serif;
+}
+.disabledButton {
+  opacity: 0.5;
+}
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-btn.ant-btn-lg {
+  font-size:0.94vw; 
+}

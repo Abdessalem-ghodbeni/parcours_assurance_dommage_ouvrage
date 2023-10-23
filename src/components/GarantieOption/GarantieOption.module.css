@@ -1,0 +1,75 @@
+.warantyText {
+  font-size: 0.9rem;
+}
+
+.warantyTitle {
+  font-weight: 500;
+}
+.mutedText {
+  font-style: normal;
+  font-weight: 250;
+  font-size: 0.8rem;
+  line-height: 21px;
+  color: #7b4343;
+}
+
+.warantyCard {
+  margin: 1rem 0rem;
+  background: #ffffff;
+  border: 2px solid #DB4537;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.warantyCardDisabled {
+  margin: 1rem 0rem;
+  background: #ffffff;
+  border: 2px solid #eeeeee;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.cardTexts {
+  text-align: center;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardTexts p {
+  width: 90%;
+}
+
+.cardTexts h3 {
+  font-size: 1.2rem;
+}
+
+.price {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  /* etape color */
+  color: #DB4537;
+}
+
+.priceDisabled {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  /* etape color */
+  color: #292371;
+}
